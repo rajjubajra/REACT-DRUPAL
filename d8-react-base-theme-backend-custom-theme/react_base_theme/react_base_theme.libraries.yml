@@ -1,0 +1,43 @@
+vendorstyle:
+    version: VERSION
+    css:
+        theme:
+            vendor/css/bootstrap.min.css: {}
+            vendor/css/carousel-bootstrap.css: {}
+            vendor/css/ie1-viewport-bug-workaround.css: {}
+            vendor/css/jquery-ui.css: {}
+            vendor/css/sticky-footer.css: {}
+    js:
+        vendor/js/bootstrap.min.js: {}
+        vendor/js/holder.min.js: {}
+        vendor/js/ie10-viewport-bug-workaround.js: {}
+    
+    dependencies:
+        - core/jquery
+        
+base:
+    version: VERSION
+    css:
+        theme:
+            css/my.css: {}
+            css/breakpoint-adjust.css: {}
+            css/dropdown-menu.css: {}
+    js:
+        js/my.js: {}
+    
+    dependencies:
+        - core/jquery
+        
+fontawesome:
+    version: 4.3.0
+    css:
+        theme:
+            vendor/font-awesome/css/font-awesome.min.css: {}
+            
+googlefonts:
+    css:
+        theme:
+            '//fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap': { type: external, minified:true } 
+            # '//fonts.googleapis.com/css?family=Open+Sans+Condensed:300': { type: external, minified: true }
+            # '//fonts.googleapis.com/css?family=BenchNine' : { type: external, minified: true }
+            

@@ -1,0 +1,28 @@
+name: D8 REACT BASE THEME
+type: theme
+description: This THEME is for REMOTE site "d8-react-base-theme-backend" custom theme
+core: 8.x
+base theme: false
+
+
+libraries:
+    - react_base_theme/vendorstyle
+    - react_base_theme/base
+    - react_base_theme/fontawesome
+    - react_base_theme/googlefonts
+
+
+libraries-override:
+    system/base: false
+      
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  help: Help
+  content: Content
+  footer: 'Footer first'
+  un_used: 'Un used blocks'
